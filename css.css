@@ -1,6 +1,7 @@
- html {
+ /* html { 
    color: green;
  }
+ */
  
  .abc {
    color: orange;
@@ -21,3 +22,24 @@
  #member:hover {
    color: gold;
  }
+ 
+ /* 複数セレクタ */
+ h1, p {
+   color: red;
+ }
+ 
+ /* 子孫セレクタ */
+ div li {
+   color: green;
+ }
+ 
+ /* 子セレクタ */
+ div > p.xyz, #p2, #p3 {
+   background-color: skyblue;
+ }
+ 
+ /* 隣接セレクタ */
+ div + p {
+   color: violet;
+ }
+ 
