@@ -24,7 +24,7 @@
  }
  
  /* 複数セレクタ */
- h1, p {
+ h3,h1, p {
    color: red;
  }
  
@@ -43,3 +43,6 @@
    color: violet;
  }
  
+ body {
+  background-color: #ccc;
+ }

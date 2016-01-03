@@ -9,13 +9,23 @@
   <h1>CSSの仕組みと簡単な使い方</h1>
   <hr />
   <p>CSSは見栄えを定義するための言語になります。</p>
-  <br />内容はWebデザイナーという職業がいるほどなので
+  <br />装飾はWebデザイナーという職業がいるほどなので
   <br />簡単には作れませんが、bootstrapのように
-  <br />仕組みを理解すればある程度使いこなせます。
-  <br />HTML内にstyleタグで入力する方法、
-  <br />HTML内にstyle属性で入力する方法、
-  <br />CSSを外部ファイルで読み込む方法があります。
+  <br />cssの仕組みを理解すればある程度使いこなせるものがあります。
+  <br />読み込めせる方法としては、
+  <br />
+  <div class="list">
+    <ol>
+      <li>HTML内にstyleタグで入力する方法</li>
+      <li>HTML内にstyle属性で入力する方法</li>
+      <li>CSSを外部ファイルで読み込む方法</li>
+    </ol>  
+  </div>
+  <br />があります。
+  <br />今回は 3.で行っています。
   <hr />
+  <h3>セレクタの指定</h3>
+  <br />セレクタとは、スタイルの適用箇所を指定するものです。
   <br />id属性は特定、class属性は分類したい時に使います。
   <br />どちらもCSSを指定する際に分かるようにするために書きます。
 
@@ -28,7 +38,7 @@
       <li>日本大学二学部剣道部</li>
     </ul>
   </div>
-  <div clas="container">
+  <div class="container">
     <h1 class="schedule ">日程詳細</h1>
     <p class="xyz">1月</p>
     <p id="p2" class="abc">2月</p>
@@ -38,5 +48,15 @@
   <hr />
   <p>CSSでは基本的に下に書かれたものが優先されますが、例外もあり、
   <br />詳細が書かれていれば上でも優先されます。</p>
+  <br />また、色の値を表現する方法は3つあります。
+  <div class="color">
+    <ul>
+      <li>言葉: red, green, blue, …</li>
+      <li>RGB(16進数): #000から#fffまで</li>
+      <li>RGBA関数: rgba(0,0,0,0)</li>
+    </ul>
+  <br />値の詳細についてはこちらなどを参考にしてみてください。
+  <a href="http://www.netyasun.com/home/color.html" target="_blank">
+  参考サイト</a>
 </body>
 </html>
