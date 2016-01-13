@@ -19,12 +19,12 @@
    color: brown;
  }
  
- #member:hover {
+ #member, #movie :hover {
    color: gold;
  }
  
  /* 複数セレクタ */
- h3,h1, p {
+ h3, h1, p {
    color: red;
  }
  
@@ -45,4 +45,9 @@
  
  body {
   background-color: #ccc;
+ }
+ 
+ img.boxmodel-image {
+   width: 400px;
+   height: 250px;
  }
