@@ -1,7 +1,7 @@
- /* html { 
-   color: green;
+  html { 
+   text-align: center;
  }
- */
+ 
  
  .abc {
    color: orange;
@@ -45,6 +45,10 @@
  
  body {
   background-color: #ffc
+ }
+ 
+ ol, ul {
+  margin: 20px 480px;
  }
  
  img.boxmodel-image {
